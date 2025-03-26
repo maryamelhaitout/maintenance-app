@@ -24,7 +24,6 @@ function InterventionsPage() {
     "Entretien préventif",
   ];
 
-  // Fetch interventions from the backend
   useEffect(() => {
     fetch("http://localhost:5000/api/interventions")
       .then((response) => response.json())
